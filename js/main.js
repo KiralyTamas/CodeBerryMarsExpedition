@@ -1,7 +1,7 @@
 function uzemanyag(atlagFogyasztas, foldTávolsag) {
-  let egysegTavolsag = 100;
-  let szuksegesUzemanyag = atlagFogyasztas / egysegTavolsag * foldTávolsag;
+  let szuksegesUzemanyag = atlagFogyasztas / 100 * foldTávolsag;
 }
-function feleslegesUzemanyag(szuksegesUzemanyag, tartaly) {
-  let folosUzemanyag= tartaly - szuksegesUzemanyag;
+function feleslegesUzemanyag(tartaly) {
+  let folosUzemanyag= tartaly - uzemanyag(80, 100000);
+  console.log(folosUzemanyag);
 }
