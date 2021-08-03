@@ -6,7 +6,12 @@ body{
   width: 100vw;
   height: 100vh;
 }
-#main{
+#content{
+  display: block;
+  position: relative;
+  text-align: center;
+}
+#window{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -14,4 +19,7 @@ position: relative;
 width: 100px;
 height: 100px;
 background: chocolate;
+}
+.fugveny{
+  margin-bottom: 1rem;
 }
