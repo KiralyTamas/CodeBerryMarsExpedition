@@ -24,7 +24,9 @@ background: chocolate;
 .fugveny{
   margin-bottom: 1rem;
 }
-input{
+#atlagFogyasztas,
+#foldTavolsag,
+#tartaly{
   display: block;
   margin-top: 1rem;
 }
